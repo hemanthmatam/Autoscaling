@@ -38,8 +38,8 @@ $UseRDSAPI = !$UseARMAPI
 $ErrorActionPreference = "Stop"
 
 # Initializing variables
-[string]$RunbookName = "WVDAutoScaleRunbook"
-[string]$WebhookName = "WVDAutoScaleWebhook"
+[string]$RunbookName = "AVDAutoScaleRunbook"
+[string]$WebhookName = "AVDAutoScaleWebhook"
 
 if (!$UseRDSAPI) {
 	$RunbookName += 'ARMBased'
